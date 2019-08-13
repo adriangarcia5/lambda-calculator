@@ -1,8 +1,6 @@
 import React from "react";
-
 //import any components needed
 import { operators } from '../../../data';//Moved to App.js
-
 //Import your array data to from the provided data file
 import OperatorButton from './OperatorButton';
 
@@ -24,4 +22,4 @@ const Operators = (props) => {
   );
 };
 
-export default Operators; 
+export default Operators;
