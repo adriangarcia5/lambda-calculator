@@ -10,3 +10,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(160, 25, 43);
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+ .logo {
+  width: 100px;
+}
+
+ .display {
+  background: rgb(44, 44, 44);
+  /* max-width: 500px; */
+  height: 60px;
+   margin: 20px 0px;
+   border-radius: 30px;
+}
+
+ .App {
+  display: flex;
+  flex-direction: column;
+
+ }
+
+ .button-container{
+  width: 400px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
